@@ -5,7 +5,7 @@ import datetime
 import random
 import time
 import unicodedata
-import django.utils.six
+from django.utils import six
 
 # Heavily based on session key generation in Django
 # Use the system (hardware-based) random number generator if it exists.
